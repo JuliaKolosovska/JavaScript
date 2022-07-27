@@ -24,19 +24,19 @@ console.log(k);
 console.log(l);
 console.log(m);
 console.log(n);
-alert(a);
-alert(b);
-alert(c);
-alert(d);
-alert(e);
-alert(f);
-alert(g);
-alert(h);
-alert(j);
-alert(k);
-alert(l);
-alert(m);
-alert(n);
+// alert(a);
+// alert(b);
+// alert(c);
+// alert(d);
+// alert(e);
+// alert(f);
+// alert(g);
+// alert(h);
+// alert(j);
+// alert(k);
+// alert(l);
+// alert(m);
+// alert(n);
 document.write(`${a} ${b}.${c}.${d} ${e} ${f} ${g} ${h} ${j} ${k} ${l} ${m} ${n}`);
 
 let firstName = 'Юлія';
@@ -55,7 +55,7 @@ console.log(name)
 let fatherName=prompt('Введіть по-батькові');
 console.log(fatherName)
 let age=prompt('Ваш вік');
-console.log(age)
+console.log(+age)
 
 
 
