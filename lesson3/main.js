@@ -97,8 +97,8 @@
 //             являється falsy (хибноподыбне, тобто кастується до false)
 
 
-// let x=prompt('enter anything')|| 'default';
-// console.log(x)
+let x = NaN || 'default';
+console.log(x)
 
 
 
