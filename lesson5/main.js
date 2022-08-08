@@ -72,7 +72,7 @@
 // function list(text, liNumber) {
 //
 //     document.write('<ul>');
-//
+// for(let i=0; i<liNumber; i++)
 //         document.write(`<li>${text}</li>`);
 //
 //     document.write('</ul>')
@@ -128,22 +128,20 @@
 //     }
 //     return min;
 // }
-//
-// console.log(minNumber(4, 5, 9, 3, 4, -10, 46));
+// let array=[4, 5, 9, 3, 4, -10, 46]
+// console.log(minNumber(array));
 
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
-// function sumElements() {
-//     let res = 0;
-//     switch (arguments[0]) {
-//         case '+':
-//             for (let i = 1; i < arguments.length; i++) {
-//                 const num = arguments[i];
-//                 res += num;
-//             }
-//             break;
+// let array=[1,6,8,69,85];
+// function sumElements(arr) {
+//     let sum = 0;
 //
-//
-//             return res
+//     for (const arrayElement of arr) {
+//         sum += arrayElement;
 //     }
+//
+//
+//     return sum;
 // }
-// console.log(sumElements(2, 5, 8))
+//
+// console.log(sumElements(array))
