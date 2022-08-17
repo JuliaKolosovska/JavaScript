@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f53546-7e26-474b-93bc-57a30f2799d0" name="Changes" comment="add files">
+      <change afterPath="$PROJECT_DIR$/lesson8/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/main.js" afterDir="false" />
     </list>
@@ -40,6 +42,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
@@ -65,7 +68,11 @@
       <workItem from="1659523074940" duration="20894000" />
       <workItem from="1659987964377" duration="964000" />
       <workItem from="1660074584070" duration="15244000" />
-      <workItem from="1660135993091" duration="7236000" />
+      <workItem from="1660135993091" duration="8052000" />
+      <workItem from="1660728283296" duration="5281000" />
+      <workItem from="1660740765613" duration="5348000" />
+      <workItem from="1660746781909" duration="75000" />
+      <workItem from="1660747024057" duration="393000" />
     </task>
     <task id="LOCAL-00001" summary="add files">
       <created>1658736234619</created>
@@ -151,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660140951639</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add files">
+      <created>1660144628259</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660144628259</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

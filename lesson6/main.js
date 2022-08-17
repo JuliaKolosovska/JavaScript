@@ -63,10 +63,10 @@
 // sortNums(nums,'descending') // [21,11,3]
 //
 // let nums = [11, 21, 3];
-// // let ascending = nums.sort((a, b) => {
-// //     return a - b;
-// // });
-// // console.log(ascending);
+// let ascending = nums.sort((a, b) => {
+//     return a - b;
+// });
+// console.log(ascending);
 // // let descending = nums.sort((a, b) => {
 // //     return b - a;
 // // });
