@@ -79,57 +79,42 @@
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
 //
 //
-
-class Car {
-    constructor(model, yearOfProduction, maxSpeed, engineVol) {
-        this.model = model;
-        this.yearOfProduction = yearOfProduction;
-        this.maxSpeed = maxSpeed;
-        this.engineVol = engineVol;
-    }
-
-    drive() {
-        console.log(`їдемо зі швидкістю ${this.maxSpeed}`);
-
-    }
-
-    info() {
-
-        console.log(`model:${this.model}`, `yearOfProduction:${this.yearOfProduction}`, `maxSpeed:${this.maxSpeed}`,`engineVol:${this.engineVol}`);
-    }
-
-    increaseMaxSpeed(newSpeed) {
-
-        let res = newSpeed + this.maxSpeed;
-        return res;
-
-    }
-    changeYear (newValue){
-
-        this.yearOfProduction=newValue;
-        console.log(`new year of production:${this.yearOfProduction}`)
-
-    }
-    // addDriver (driver){
-    //    return this.driver=driver;
-    //    driver=[name,age];
-    // }
-
-   addDriver(model, yearOfProduction, maxSpeed, engineVol, driver) {
-        Car.apply(this, driver);
-        this.driver = driver;
-
-
-    }
-}
-
-let car1 = new Car('Audi Q7', 2020, 250, 3.0);
-console.log(car1);
-car1.drive();
-car1.info();
-console.log(car1.increaseMaxSpeed(20));
-console.log(car1.changeYear(2023));
-console.log(car1.addDriver(['Kolya', 30,'nrvoiermfv']));
+//
+// function Car(model, yearOfProduction, maxSpeed, engineVol) {
+//     this.model = model;
+//     this.yearOfProduction = yearOfProduction;
+//     this.maxSpeed = maxSpeed;
+//     this.engineVol = engineVol;
+//     this.drive = function () {
+//         console.log(`їдемо зі швидкістю ${this.maxSpeed}`);
+//     }
+//     this.info = function () {
+//         for (const item in this) {
+//             if (typeof this[item] !== 'function') {
+//                 console.log(`${item}-${this[item]}`)
+//
+//             }
+//         }
+//     }
+//     this.increaseMaxSpeed = function (newSpeed) {
+//         this.maxSpeed += newSpeed;
+//     }
+//     this.changeYear = function (newYear) {
+//         this.yearOfProduction = newYear;
+//     }
+//     this.addDriver = function (driver) {
+//         this.driver = driver;
+//     }
+// }
+//
+// let car1 = new Car('Audi Q7', 2020, 250, 3.0);
+// let driver1 = {name: 'Kolya', age: 56};
+// car1.drive();
+// car1.info();
+// car1.increaseMaxSpeed(20);
+// car1.changeYear(2023);
+// car1.addDriver(driver1);
+// console.log(car1);
 
 // - (Те саме, тільки через клас)
 // Створити клас який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
@@ -140,8 +125,96 @@ console.log(car1.addDriver(['Kolya', 30,'nrvoiermfv']));
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
 //
 //
+
+// class Car {
+//     constructor(model, yearOfProduction, maxSpeed, engineVol) {
+//         this.model = model;
+//         this.yearOfProduction = yearOfProduction;
+//         this.maxSpeed = maxSpeed;
+//         this.engineVol = engineVol;
+//     }
 //
+//     drive() {
+//         console.log(`їдемо зі швидкістю ${this.maxSpeed}`);
+//
+//     }
+//
+//     info() {
+//         for (const item in this) {
+//             if (typeof this[item] !== 'function') {
+//                 console.log(`${item}-${this[item]}`)
+//             }
+//         }
+//     }
+//
+//     increaseMaxSpeed(newSpeed) {
+//
+//         this.maxSpeed = newSpeed + this.maxSpeed;
+//     }
+//
+//     changeYear(newValue) {
+//
+//         this.yearOfProduction = newValue;
+//
+//
+//     }
+//
+//     addDriver(driver) {
+//         this.driver = driver;
+//     }
+// }
+//
+// let car1 = new Car('Audi Q7', 2020, 250, 3.0);
+// let driver1 = {name: 'Kolya', age: 56};
+// car1.drive();
+// car1.info();
+// car1.increaseMaxSpeed(20);
+// car1.changeYear(2023);
+//
+// car1.addDriver(driver1);
+// console.log(car1);
+//
+
 // -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
+
+class Cindarella {
+    constructor(name, age, footSize) {
+        this.name = name;
+        this.age = age;
+        this.footSize = footSize;
+    }
+}
+
+
+let c1 = new Cindarella('anna', 19, 35);
+let c2 = new Cindarella('maria', 21, 37);
+let c3 = new Cindarella('alisa', 20, 38);
+let c4 = new Cindarella('viktoria', 22, 39);
+let c5 = new Cindarella('sofia', 24, 34);
+let c6 = new Cindarella('karina', 18, 36);
+let c7 = new Cindarella('anastasia', 23, 36);
+let c8 = new Cindarella('olena', 20, 37);
+let c9 = new Cindarella('oleksandra', 26, 39);
+let c10 = new Cindarella('vita', 21, 38);
+let cindarellas = [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10];
+// console.log(cindarellas);
+
+class Prince extends Cindarella {
+    constructor(name, age, findSize) {
+        super(name, age);
+        this.findSize = findSize;
+    }
+}
+
+let prince1 = new Prince('Oleg', 25, 37);
+let find = (cindarella, prince) => {
+    for (const item of cindarella) {
+        if (prince.findSize === item.footSize) {
+            return `My Cinderella is ${item.name}`;
+        }
+    }
+}
+console.log(find(cindarellas,prince1));
