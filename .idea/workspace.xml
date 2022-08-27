@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f53546-7e26-474b-93bc-57a30f2799d0" name="Changes" comment="add files">
-      <change afterPath="$PROJECT_DIR$/pr1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pr1/post-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pr1/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pr1/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pr1/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pr1/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/main1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/main1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/main2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/main2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/post-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/user-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/main2.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/main2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +78,7 @@
       <workItem from="1661361348039" duration="1809000" />
       <workItem from="1661365398519" duration="5743000" />
       <workItem from="1661450544061" duration="8668000" />
-      <workItem from="1661510507507" duration="29374000" />
+      <workItem from="1661510507507" duration="29535000" />
     </task>
     <task id="LOCAL-00001" summary="add files">
       <created>1658736234619</created>
@@ -214,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661195266607</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add files">
+      <created>1661638533183</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1661638533183</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

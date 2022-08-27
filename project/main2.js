@@ -5,8 +5,6 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
     .then(response => response.json())
     .then((data => {
 
-        let wrapes = document.getElementsByClassName('wrap');
-        let wrap = wrapes[0];
         let postInfos = document.getElementsByClassName('info');
         let postInfo = postInfos[0];
         postInfo.innerHTML = '<h3>Post info:</h3>';
